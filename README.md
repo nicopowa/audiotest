@@ -82,3 +82,12 @@
 - iOs accurate FLAC seeking
 - Background audio play/pause fade in/out
 - Dual Audio swap track crossfade
+
+## Mind blown
+
+Just tested browsing two files from iOs & Android, background audio playing, no pitch change, stable media session.
+
+Useless but impressive :)
+
+
+![](qrloop.gif)

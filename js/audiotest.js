@@ -67,13 +67,6 @@ class AudioTest {
 
 		this.createAudioPlayer();
 
-		try {
-			await this.initAudioVis();
-		}
-		catch(err) {
-			this.bars = false;
-		}
-
 		this.createAudioMain();
 
 		this.createAudioGain();
@@ -84,9 +77,17 @@ class AudioTest {
 
 		this.createSilence();
 
-		this.connectGraph();
-
 		this.createUI();
+
+		try {
+			await this.initAudioVis();
+		}
+		catch(err) {
+			console.log(err);
+			this.bars = false;
+		}
+
+		this.connectGraph();
 
 		await this.playAudioMain();
 

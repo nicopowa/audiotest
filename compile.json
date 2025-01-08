@@ -1,0 +1,29 @@
+{
+	"package": {
+		"files": [
+			"js/audiotest.js"
+		],
+		"styles": [
+			"css/audiotest.css"
+		],
+		"merge": [],
+		"externs": [],
+		"options": {
+			"release": [
+				{
+					"externs": "mediasession.externs.js"
+				}
+			],
+			"debug": [
+				{
+					"externs": "mediasession.externs.js"
+				}
+			]
+		},
+		"flags": {
+			"obfuscate": false
+		},
+		"version": 6,
+		"compiled": "08/01/2025 03:07:56"
+	}
+}
